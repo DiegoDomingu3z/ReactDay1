@@ -3,6 +3,10 @@
 
 
 
+
+
+
+
 function Header() {
     return (
 
@@ -11,12 +15,14 @@ function Header() {
                 <img className="img-fluid image" src="react.png" alt="React picture" />
                 <span><h1 className="pt-3 ps-2">React</h1></span>
             </div>
-            <div><h1 className="pt-3" >React Course - Project 1</h1> </div>
+            <div ><ul className="nav-items pt-3 ">
+                <li>Pricing</li>
+                <li className="px-4">About</li>
+                <li>Contact</li>
+            </ul> </div>
         </div>
     )
 }
-
-
 
 function Main() {
     return (
@@ -37,8 +43,19 @@ function Main() {
     )
 }
 
+function Footer() {
+    return (
+        <div className="footer text-center pt-2 text-secondary">
+            <p>"2022 Dominguez development. All rights reserved</p>
+        </div>
+    )
+}
+
+
+
 
 ReactDOM.render(<Header />, document.getElementById("root"))
 ReactDOM.render(<Main />, document.getElementById("main"))
+ReactDOM.render(<Footer />, document.getElementById("footer"))
 
 

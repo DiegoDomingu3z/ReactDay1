@@ -10,5 +10,20 @@
 
 .bg-2 {
     background-color: #33373E;
-    height: 85vh;
+    height: 80vh;
+}
+
+.footer {
+    background-color: #21222A;
+    height: 5vh;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+
+}
+
+li {
+    cursor: pointer;
 }
