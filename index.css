@@ -1,0 +1,14 @@
+.image {
+    height: 5rem;
+    width: 5em;
+}
+
+.bg {
+    background-color: #21222A;
+    height: 15vh;
+}
+
+.bg-2 {
+    background-color: #33373E;
+    height: 85vh;
+}
